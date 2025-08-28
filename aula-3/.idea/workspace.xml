@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42797620-0cf0-45e1-971a-7a9e48edbfec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../arrays/src/Salgado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/C06-POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/aula-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/aula-4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-4/src/Exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/aula-5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-5/src/Zumbi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/aula-3/Exercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/aula-3/Exercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/aula-3/Exercicio3.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="31vgDcMZ18uKdKY6NV0kC84qOT7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/maria/OneDrive/Área de Trabalho/5º período/C06/C06-POO/aula-3/src/Main.java"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42797620-0cf0-45e1-971a-7a9e48edbfec" name="Changes" comment="" />
+      <created>1756409842336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756409842336</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

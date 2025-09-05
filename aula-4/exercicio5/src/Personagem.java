@@ -11,3 +11,4 @@ public class Personagem {
         arma.resistencia-= 2;
     }
 }
+

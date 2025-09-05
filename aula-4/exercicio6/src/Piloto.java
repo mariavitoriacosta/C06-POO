@@ -6,4 +6,3 @@ public class Piloto {
         System.out.println("Piloto " + nome + " soltando poder.");
     }
 }
-

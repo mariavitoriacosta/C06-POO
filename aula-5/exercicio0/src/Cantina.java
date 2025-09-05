@@ -12,7 +12,7 @@ public class Cantina {
     }
 
     void mostraInfo(){
-        System.out.println("Nome: " + nome);
+        System.out.println("A " + nome + " possui os seguintes salgados: ");
         System.out.println("Salgados: ");
         for(Salgado salgado : salgados){
             if(salgado == null){
@@ -22,3 +22,4 @@ public class Cantina {
         }
     }
 }
+

@@ -66,7 +66,7 @@ public class Main {
         System.out.println("CPF: ");
         String cpfCliente = entrada.next();
 
-        Cliente cliente1 = new Cliente(nomeCliente, cpfCliente);
+        Cliente cliente = new Cliente(nomeCliente, cpfCliente);
 
         System.out.println("Obrigado, você já pode prosseguir!");
         System.out.println("""
@@ -108,24 +108,22 @@ public class Main {
             }
         } while(opcao != 0);
 
-        ProcessarPedido processarPedido = new ProcessarPedido();
-
-        processarPedido.enviarPedido(clienteComputadores, cliente1);
+        ProcessarPedido.enviarPedido(clienteComputadores, cliente);
 
         System.out.println(" ");
         System.out.println("Dados do cliente: ");
-        System.out.println("Nome: " +nomeCliente);
-        System.out.println("CPF: " +cpfCliente);
+        System.out.println("Nome: " +cliente.getNome());
+        System.out.println("CPF: " +cliente.getCpf());
         System.out.println(" ");
         System.out.println("PC's adiquiridos: ");
-        for(Computador computador : cliente1.getComputadores()){
+        for(Computador computador : cliente.getComputadores()){
             if(computador == null){
                 break;
             }
             System.out.println(computador.getMarca());
         }
         System.out.println(" ");
-        System.out.println("Total da compra: R$ " +cliente1.calculaTotalCompra());
+        System.out.println("Total da compra: R$ " +cliente.calculaTotalCompra());
         System.out.println(" ");
         System.out.println("Obrigado pela preferência!");
     }

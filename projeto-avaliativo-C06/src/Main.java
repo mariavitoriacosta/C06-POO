@@ -9,30 +9,29 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ProcessarPedido processarPedido = new ProcessarPedido();
 
         SistemaOperacional sistemaOperacional1 = new SistemaOperacional(64, "macOS Sequoia");
         SistemaOperacional sistemaOperacional2 = new SistemaOperacional(64, "Windows 8");
         SistemaOperacional sistemaOperacional3 = new SistemaOperacional(64, "Windows 10");
 
         HardwareBasico[] hardwareBasico1 = new HardwareBasico[3];
-        hardwareBasico1[0] = new HardwareBasico("Pentium Core i3 Mhz ", 2200);
-        hardwareBasico1[1] = new HardwareBasico("Memória RAM Gb ", 8);
-        hardwareBasico1[2] = new HardwareBasico("HD Gb ", 500);
+        hardwareBasico1[0] = new HardwareBasico("Pentium Core i3 - Mhz", 2200);
+        hardwareBasico1[1] = new HardwareBasico("Memória RAM - Gb", 8);
+        hardwareBasico1[2] = new HardwareBasico("HD - Gb", 500);
 
         HardwareBasico[] hardwareBasico2 = new HardwareBasico[3];
-        hardwareBasico1[0] = new HardwareBasico("Pentium Core i5 Mhz ", 3370);
-        hardwareBasico1[1] = new HardwareBasico("Memória RAM Gb ", 16);
-        hardwareBasico1[2] = new HardwareBasico("HD Tb ", 1);
+        hardwareBasico2[0] = new HardwareBasico("Pentium Core i5 - Mhz", 3370);
+        hardwareBasico2[1] = new HardwareBasico("Memória RAM - Gb", 16);
+        hardwareBasico2[2] = new HardwareBasico("HD - Tb", 1);
 
         HardwareBasico[] hardwareBasico3 = new HardwareBasico[3];
-        hardwareBasico1[0] = new HardwareBasico("Pentium Core i7 Mhz ", 4500);
-        hardwareBasico1[1] = new HardwareBasico("Memória RAM Gb ", 32);
-        hardwareBasico1[2] = new HardwareBasico("HD Tb ", 2);
+        hardwareBasico3[0] = new HardwareBasico("Pentium Core i7 - Mhz", 4500);
+        hardwareBasico3[1] = new HardwareBasico("Memória RAM - Gb", 32);
+        hardwareBasico3[2] = new HardwareBasico("HD - Tb", 2);
 
-        MemoriaUSB memoriaUSB1 = new MemoriaUSB("Pen-drive", 16);
-        MemoriaUSB memoriaUSB2 = new MemoriaUSB("Pen-drive", 32);
-        MemoriaUSB memoriaUSB3 = new MemoriaUSB("HD Externo", 1);
+        MemoriaUSB memoriaUSB1 = new MemoriaUSB("Pen-drive - Gb ", 16);
+        MemoriaUSB memoriaUSB2 = new MemoriaUSB("Pen-drive - Gb ", 32);
+        MemoriaUSB memoriaUSB3 = new MemoriaUSB("HD Externo - Tb ", 1);
 
         Computador[] clienteComputadores = new Computador[20];
 
@@ -46,7 +45,7 @@ public class Main {
 
         System.out.println("Bem-vindo(a) à PC Mania!");
         System.out.println(" ");
-        System.out.println("Promoções disponíveis: ");
+        System.out.println("Promoções de PC's disponíveis: ");
         System.out.println(" ");
         System.out.println("Promoção 1: ");
         computador1.mostraPCConfigs();
@@ -69,7 +68,7 @@ public class Main {
 
         Cliente cliente1 = new Cliente(nomeCliente, cpfCliente);
 
-        System.out.println("Obrigada, você já pode prosseguir!");
+        System.out.println("Obrigado, você já pode prosseguir!");
         System.out.println("""
 
                 Digite:
@@ -109,8 +108,11 @@ public class Main {
             }
         } while(opcao != 0);
 
+        ProcessarPedido processarPedido = new ProcessarPedido();
+
         processarPedido.enviarPedido(clienteComputadores, cliente1);
 
+        System.out.println(" ");
         System.out.println("Dados do cliente: ");
         System.out.println("Nome: " +nomeCliente);
         System.out.println("CPF: " +cpfCliente);
@@ -124,11 +126,8 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("Total da compra: R$ " +cliente1.calculaTotalCompra());
-
-        Computador a = new Computador("a", 492, sistemaOperacional1, hardwareBasico1);
-        Computador b = new Computador("b", 492, sistemaOperacional1, hardwareBasico1);;
-        Computador c = new Computador("c", 492, sistemaOperacional1, hardwareBasico1);
-
+        System.out.println(" ");
+        System.out.println("Obrigado pela preferência!");
     }
 
 }

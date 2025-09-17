@@ -32,7 +32,7 @@ public class Computador {
             }
             System.out.println(hardware.getNome()+ " " +hardware.getCapacidade());
         }
-        System.out.println("Memória USB: " +memoriaUSB.getNome()+ " " +memoriaUSB.getCapacidade()+ " Gb/Tb");
+        System.out.println("Memória USB: " +memoriaUSB.getNome() +memoriaUSB.getCapacidade());
     }
     public void addMemoriaUSB(MemoriaUSB musb){
         this.memoriaUSB = musb;

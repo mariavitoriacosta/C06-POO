@@ -1,5 +1,7 @@
 package computador;
 
+import cliente.Cliente;
+
 public class HardwareBasico {
     private String nome;
     private float capacidade;
